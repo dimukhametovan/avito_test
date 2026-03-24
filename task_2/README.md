@@ -1,3 +1,10 @@
+# Навигация
+
+- [Что реализовано](#что-реализовано)
+- [Как запустить тесты](#как-запустить-тесты)
+- [Отчет о локальном запуске тестов](#отчет-о-локальном-запуске-тестов)
+- [Allure reports скриншоты](#allure-reports-скриншоты)
+
 ## Что реализовано
 
 1. Используется паттерн Page Object для автотестов
@@ -5,16 +12,19 @@
 3. Есть интеграция с allure, тесты размечены шагами
 4. Tech stack: python, selenium, allure
 
-## Как запустить
+## Как запустить тесты
 
 ```bash
 # создать и активировать виртуальное окружение
 python -m venv .venv
 source .venv/bin/activate
+
 # перейти в папку проекта
 cd ./task_2
+
 # установить зависимости
 pip install -r requirements.txt
+
 # запустить тесты и открыть allure report
 pytest tests --alluredir=allure-results
 allure serve allure-results
@@ -169,7 +179,7 @@ FAILED tests/test_desktop_urgent_toggle.py::test_desktop_urgent_toggle - Asserti
 
 ```
 
-## Allure-reports
+## Allure-reports скриншоты
 
 ![test_1](./allure%20report/test_1.png)
 ![test_2](./allure%20report/test_2.png)
