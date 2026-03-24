@@ -2,8 +2,8 @@
 
 - [Что реализовано](#что-реализовано)
 - [Как запустить тесты](#как-запустить-тесты)
-- [Отчет о локальном запуске тестов](#отчет-о-локальном-запуске-тестов)
 - [Allure reports скриншоты](#allure-reports-скриншоты)
+- [Отчет о локальном запуске тестов](#отчет-о-локальном-запуске-тестов)
 
 ## Что реализовано
 
@@ -29,6 +29,15 @@ pip install -r requirements.txt
 pytest tests --alluredir=allure-results
 allure serve allure-results
 ```
+
+## Allure-reports скриншоты
+
+![test_1](./allure%20report/test_1.png)
+![test_2](./allure%20report/test_2.png)
+![test_3](./allure%20report/test_3.png)
+![test_4](./allure%20report/test_4.png)
+![test_5](./allure%20report/test_5.png)
+![test_6](./allure%20report/test_6.png)
 
 ## Отчет о локальном запуске тестов
 
@@ -178,12 +187,3 @@ FAILED tests/test_desktop_urgent_toggle.py::test_desktop_urgent_toggle - Asserti
 ============================================ 3 failed, 3 passed in 55.92s ============================================
 
 ```
-
-## Allure-reports скриншоты
-
-![test_1](./allure%20report/test_1.png)
-![test_2](./allure%20report/test_2.png)
-![test_3](./allure%20report/test_3.png)
-![test_4](./allure%20report/test_4.png)
-![test_5](./allure%20report/test_5.png)
-![test_6](./allure%20report/test_6.png)
