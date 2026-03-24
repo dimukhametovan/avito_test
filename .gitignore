@@ -1,0 +1,5 @@
+*/__pycache__/
+*/*/__pycache__/
+*/*/*/__pycache__/
+*/allure-results/
+*/.pytest_cache/

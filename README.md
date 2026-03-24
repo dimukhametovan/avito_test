@@ -1,1 +1,4 @@
-# ozon_test
+# avito_test
+
+- [Задание 1](./task_1/)
+- [Задание 2](./task_2/)
